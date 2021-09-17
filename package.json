@@ -30,7 +30,7 @@
                 "extensions": [
                     ".naz"
                 ],
-                "configuration": "./naz-configuration.json"
+                "configuration": "./configurations/naz.json"
             },
             {
                 "id": "static",
@@ -42,7 +42,7 @@
                     ".static",
                     ".stic"
                 ],
-                "configuration": "./static-configuration.json"
+                "configuration": "./configurations/static.json"
             }
         ],
         "grammars": [
