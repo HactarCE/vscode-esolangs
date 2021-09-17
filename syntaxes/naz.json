@@ -1,0 +1,41 @@
+{
+   "fileTypes": [
+      "naz"
+   ],
+   "name": "naz",
+   "patterns": [
+      {
+         "name": "comment.line.number-sign.naz",
+         "match": "#.*"
+      },
+      {
+         "name": "support.class.naz",
+         "match": "[0-9]h"
+      },
+      {
+         "name": "variable.naz",
+         "match": "[0-9]n"
+      },
+      {
+         "name": "entity.name.function",
+         "match": "[0-9][or]"
+      },
+      {
+         "name": "constant.language.naz",
+         "match": "[0-3]x"
+      },
+      {
+         "name": "storage.type.naz",
+         "match": "[0-9]f"
+      },
+      {
+         "name": "variable.naz",
+         "match": "[0-9]v"
+      },
+      {
+         "name": "keyword.control.naz",
+         "match": "[0-9][egl]"
+      }
+   ],
+   "scopeName": "source.naz"
+}

@@ -15,12 +15,23 @@
         "esolang",
         "esolangs",
         "esoteric",
+        "naz",
         "st@ic",
         "static",
         "stic"
     ],
     "contributes": {
         "languages": [
+            {
+                "id": "naz",
+                "aliases": [
+                    "naz"
+                ],
+                "extensions": [
+                    ".naz"
+                ],
+                "configuration": "./naz-configuration.json"
+            },
             {
                 "id": "static",
                 "aliases": [
@@ -35,6 +46,11 @@
             }
         ],
         "grammars": [
+            {
+                "language": "naz",
+                "scopeName": "source.naz",
+                "path": "./syntaxes/naz.json"
+            },
             {
                 "language": "static",
                 "scopeName": "source.static",

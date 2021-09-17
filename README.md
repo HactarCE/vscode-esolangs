@@ -4,4 +4,5 @@ Syntax highlighting extension for VSCode supporting several esoteric programming
 
 Currently supported:
 
+- [naz](https://github.com/sporeball/naz)
 - St@ic
