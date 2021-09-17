@@ -1,0 +1,68 @@
+{
+   "fileTypes": [
+      "static"
+   ],
+   "name": "St@ic",
+   "patterns": [
+      {
+         "name": "comment.block.brace.static",
+         "begin": "{",
+         "end": "}"
+      },
+      {
+         "name": "constant.line.static",
+         "match": "(^|\\r|\\n)\\s*\\d+"
+      },
+      {
+         "name": "constant.numeric.static",
+         "match": "\\d+"
+      },
+      {
+         "name": "keyword.control.static",
+         "match": "\\bgoto|putchar|putint|putstring|stop\\b"
+      },
+      {
+         "name": "variable.language.static",
+         "match": "\\bgetchar|getint|last\\b"
+      },
+      {
+         "name": "punctuation.parentheses.begin.static",
+         "match": "\\("
+      },
+      {
+         "name": "punctuation.parentheses.end.static",
+         "match": "\\)"
+      },
+      {
+         "name": "variable.other.line.static",
+         "match": "\\[\\d+\\]"
+      },
+      {
+         "name": "keyword.operator.static",
+         "match": "[+\\-*/%=<>&|]"
+      },
+      {
+         "name": "string.quoted.double.static",
+         "begin": "\"",
+         "end": "\"",
+         "patterns": [
+            {
+               "name": "constant.character.escape.static",
+               "match": "\\."
+            }
+         ]
+      },
+      {
+         "name": "string.quoted.single.static",
+         "begin": "'",
+         "end": "'",
+         "patterns": [
+            {
+               "name": "constant.character.escape.static",
+               "match": "\\."
+            }
+         ]
+      }
+   ],
+   "scopeName": "source.static"
+}

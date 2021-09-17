@@ -1,0 +1,50 @@
+{
+    "name": "esolangs",
+    "version": "0.0.1",
+    "publisher": "HactarCE",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "license": "WTFPL",
+    "displayName": "Esoteric Programming Language Support",
+    "description": "Syntax highlighting for esoteric programming languages",
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "esolang",
+        "esolangs",
+        "esoteric",
+        "st@ic",
+        "static",
+        "stic"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "static",
+                "aliases": [
+                    "St@ic"
+                ],
+                "extensions": [
+                    ".st@ic",
+                    ".static",
+                    ".stic"
+                ],
+                "configuration": "./static-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "static",
+                "scopeName": "source.static",
+                "path": "./syntaxes/static.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HactarCE/vscode-esolangs.git"
+    },
+    "icon": "images/icon.png"
+}
