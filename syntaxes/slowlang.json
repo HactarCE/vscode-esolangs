@@ -1,0 +1,16 @@
+{
+   "fileTypes": [
+      "slow"
+   ],
+   "name": "SlowLang",
+   "patterns": [
+      {
+         "name": "keyword.other.slowlang",
+         "match": "\\bplease(?=\\s*\\()"
+      },
+      {
+         "include": "source.python"
+      }
+   ],
+   "scopeName": "source.slowlang"
+}

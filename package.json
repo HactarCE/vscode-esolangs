@@ -18,7 +18,8 @@
         "naz",
         "st@ic",
         "static",
-        "stic"
+        "stic",
+        "slowlang"
     ],
     "contributes": {
         "languages": [
@@ -43,6 +44,16 @@
                     ".stic"
                 ],
                 "configuration": "./configurations/static.json"
+            },
+            {
+                "id": "slowlang",
+                "aliases": [
+                    "SlowLang"
+                ],
+                "extensions": [
+                    ".slow"
+                ],
+                "configuration": "./configurations/slowlang.json"
             }
         ],
         "grammars": [
@@ -55,6 +66,11 @@
                 "language": "static",
                 "scopeName": "source.static",
                 "path": "./syntaxes/static.json"
+            },
+            {
+                "language": "slowlang",
+                "scopeName": "source.slowlang",
+                "path": "./syntaxes/slowlang.json"
             }
         ]
     },
